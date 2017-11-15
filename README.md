@@ -1,2 +1,27 @@
-# DWS-Tp2-profiles
-Programa con CGI Perl para la gestión de perfiles y su almacenamiento en ficheros / Program with CGI Perl for profile managment and saving on files.
+# DWS Tp2
+                                               
+## Perfiles almacenados en fichero con CGI
+
+Aplicacion en CGI Perl con un formulario que nos permite almacenar datos de personas para guardarlos en un fichero externo. (Dicho fichero se almacenará en /tmp/perfiles.txt
+Requisitos
+
+## Requerimientos
+
+**_Servidor web Apache_**
+**_Módulo CGI activado_**
+**_Navegador web para acceder a apache_**
+
+## Utilización:
+
+Este proyecto debe desplegarse en el directorio: 
+**_/usr/lib/cgi-bin/_**
+
+Debemos tener apache2 funcionando y el módulo CGI ya activado, a continuación accedemos al navegador introduciendo:
+**_ localhost/cgi-bin/perfiles.cgi _**
+
+Introducimos los datos del perfil que queremos añadir y presionamos el botón Enviar.
+
+## Actualizaciones pendientes:
+
+-Incluir botón de Volver para regresar al formulario una vez introducimos el perfil.
+-Mejorar presentación.
