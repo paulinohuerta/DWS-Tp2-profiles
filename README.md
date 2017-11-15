@@ -6,10 +6,9 @@ Aplicacion en CGI Perl con un formulario que nos permite almacenar datos de pers
 Requisitos
 
 ### Requerimientos
-
-_**Servidor web Apache**_
-_**Módulo CGI activado**_
-_**Navegador web para acceder a apache**_
+Servidor web Apache
+Módulo CGI activado
+Navegador web para acceder a apache
 
 ### Utilización:
 Este proyecto debe desplegarse en el directorio: 
