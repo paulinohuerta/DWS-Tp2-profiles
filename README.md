@@ -6,13 +6,13 @@ Aplicacion en CGI Perl con un formulario que nos permite almacenar datos de pers
 Requisitos
 
 ### Requerimientos
-Servidor web Apache
-Módulo CGI activado
-Navegador web para acceder a apache
+    Servidor web Apache
+    Módulo CGI activado
+    Navegador web para acceder a apache
 
 ### Utilización:
-Este proyecto debe desplegarse en el directorio: 
-_**/usr/lib/cgi-bin/**_
+    Este proyecto debe desplegarse en el directorio: 
+    _**/usr/lib/cgi-bin/**_
 
 Debemos tener apache2 funcionando y el módulo CGI ya activado, a continuación accedemos al navegador introduciendo:
 _**localhost/cgi-bin/perfiles.cgi **_
@@ -22,4 +22,5 @@ Introducimos los datos del perfil que queremos añadir y presionamos el botón E
 ## Actualizaciones pendientes:
 
 -Incluir botón de Volver para regresar al formulario una vez introducimos el perfil.
+
 -Mejorar presentación.
