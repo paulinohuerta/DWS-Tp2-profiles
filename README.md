@@ -5,14 +5,13 @@
 Aplicacion en CGI Perl con un formulario que nos permite almacenar datos de personas para guardarlos en un fichero externo. (Dicho fichero se almacenará en /tmp/perfiles.txt
 Requisitos
 
-## Requerimientos
+### Requerimientos
 
 _**Servidor web Apache**_
 _**Módulo CGI activado**_
 _**Navegador web para acceder a apache**_
 
-## Utilización:
-
+### Utilización:
 Este proyecto debe desplegarse en el directorio: 
 _**/usr/lib/cgi-bin/**_
 
