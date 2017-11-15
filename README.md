@@ -7,17 +7,17 @@ Requisitos
 
 ## Requerimientos
 
-**_Servidor web Apache_**
-**_Módulo CGI activado_**
-**_Navegador web para acceder a apache_**
+_**Servidor web Apache**_
+_**Módulo CGI activado**_
+_**Navegador web para acceder a apache**_
 
 ## Utilización:
 
 Este proyecto debe desplegarse en el directorio: 
-**_/usr/lib/cgi-bin/_**
+_**/usr/lib/cgi-bin/**_
 
 Debemos tener apache2 funcionando y el módulo CGI ya activado, a continuación accedemos al navegador introduciendo:
-**_ localhost/cgi-bin/perfiles.cgi _**
+_**localhost/cgi-bin/perfiles.cgi **_
 
 Introducimos los datos del perfil que queremos añadir y presionamos el botón Enviar.
 
