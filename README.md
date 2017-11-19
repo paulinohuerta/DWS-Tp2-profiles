@@ -21,6 +21,8 @@ Introducimos los datos del perfil que queremos añadir y presionamos el botón E
 
 ## Actualizaciones pendientes:
 
--Incluir botón de Volver para regresar al formulario una vez introducimos el perfil.
+-Incluir botón de Volver para regresar al formulario una vez introducimos el perfil.   
+ * Sería fantástico
 
 -Mejorar presentación.
+ * Qizás mejor dejar como está la presentación y resolver: `mostrar los datos existentes a requerimiento del usuario, y no siempre al enviar el formulario`

@@ -8,7 +8,7 @@ $perlcgi = new CGI;
 
 #El formulario que vamos a usar.
 if(!$perlcgi->param){
-    print $perlcgi->header(-charset => 'utf-8');
+    print $perlcgi->header(-charset => 'iso8859-1');
     print $perlcgi->start_html('Perfiles');
     print $perlcgi->start_form(-onsubmit=>'/submit');
     	#Ahora le damos forma a la vista.
@@ -34,7 +34,7 @@ if(!$perlcgi->param){
     
 } else {
     #Usamos las variables para meterlas en un documento nuevo (sin sobreescribir, para almacenar varios perfiles si queremos). 
-    print $perlcgi->header(-charset => 'utf-8');
+    print $perlcgi->header(-charset => 'iso-8859-1');
     print $perlcgi->start_html('Perfiles almacenados: ');
     my $nombre = $perlcgi->param('nombre');
     my $apellidos = $perlcgi->param('apellidos');
