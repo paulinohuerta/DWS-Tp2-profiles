@@ -44,7 +44,7 @@ if(!$perlcgi->param){
 
      open F, '>>/tmp/perfiles.txt' or die "Imposible abrir el fichero:$!";
 	#Ahora mostraremos los datos de los perfiles almacenados en el fichero de texto.
-     print F "Nombre: $nombre \n Apellidos: $apellidos \n Grupo: $grupo \n Nº Movil: $tlfmovil \n Nº Fijo: $tlffijo \n";
+     print F "$nombre:$apellidos:$grupo:$tlfmovil:$tlffijo \n";
      close F;
 	#Abrimos el documento creado
 	open F, '/tmp/perfiles.txt' or die "Imposible abrir el fichero:$!";
